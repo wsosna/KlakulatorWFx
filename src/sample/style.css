@@ -1,0 +1,41 @@
+AnchorPane {
+    -fx-background-color: rgba(0,0,0,0.28);
+}
+
+Pane {
+    -fx-background-color: #55585b;
+}
+
+Label {
+    /*-fx-font-family: Tahoma;*/
+    -fx-font: 40px Tahoma;
+    -fx-font-weight: bold;
+}
+
+Button {
+    -fx-background-color: rgba(1, 1, 1, 0.41);
+    -fx-text-fill: rgba(0, 0, 0, 0.99);
+    -fx-font: 15px Tahoma;
+    -fx-stroke: rgba(250, 250, 250, 0);
+    -fx-stroke-type: outside;
+}
+
+.button:hover{
+    -fx-background-color: rgba(212, 77, 27, 0.81);
+}
+.button:pressed{
+    -fx-background-color: rgba(225, 95, 37, 0.81);
+}
+
+Button.close {
+    -fx-background-color: rgba(212, 77, 27, 0.81);
+    -fx-text-fill: rgb(0, 0, 0);
+}
+
+.close:hover {
+    -fx-background-color: rgba(70, 113, 23, 0.95);
+}
+
+.close:pressed {
+    -fx-background-color: rgba(102, 165, 34, 0.95);
+}
